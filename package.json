@@ -1,0 +1,7 @@
+{
+  "name": "bugzilla_final",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

@@ -1,0 +1,3 @@
+current directory: /Users/stack360/Downloads/bugzilla_final/vendor/bundle/ruby/2.6.0/gems/mimemagic-0.3.10/ext/mimemagic
+/Users/stack360/.rvm/rubies/ruby-2.6.1/bin/ruby -rrubygems /Users/stack360/Downloads/bugzilla_final/vendor/bundle/ruby/2.6.0/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=/Users/stack360/Downloads/bugzilla_final/vendor/bundle/ruby/2.6.0/extensions/x86_64-darwin-21/2.6.0/mimemagic-0.3.10 RUBYLIBDIR\=/Users/stack360/Downloads/bugzilla_final/vendor/bundle/ruby/2.6.0/extensions/x86_64-darwin-21/2.6.0/mimemagic-0.3.10
+mkdir -p /Users/stack360/Downloads/bugzilla_final/vendor/bundle/ruby/2.6.0/extensions/x86_64-darwin-21/2.6.0/mimemagic-0.3.10/mimemagic
