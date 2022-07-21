@@ -34,7 +34,6 @@ class Bug < ApplicationRecord
   end
 
   def is_developer_against_project
-    binding.pry
     if self.project.developers && self.project.developers.ids.include?(self.developer_id)
     else
       self.errors.add(:developer_id, "you are not able to solve this bug !")
