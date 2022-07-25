@@ -6,4 +6,4 @@ cd /var/www/my-app/
 gem install nokogiri — — use-system-libraries
 bundle config build.nokogiri — use-system-libraries
 gem install bundler — user-install
-bundle install
+bundle install 
