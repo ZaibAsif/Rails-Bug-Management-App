@@ -43,3 +43,4 @@ hooks:
   ApplicationStart:
     - location: scripts/finish-installation.sh
       runas: ubuntu
+file_exists_behavior: OVERWRITE
