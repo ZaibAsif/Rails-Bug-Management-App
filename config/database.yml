@@ -2,23 +2,24 @@ development: &default
   adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
-  
-  host:     localhost
+
+  host:     stack-deployment-database.cqt38lbkkkpo.us-west-2.rds.amazonaws.com
   encoding: unicode
   pool:     20
   username: postgres
-  password: root
+  password: password
   database: bug_track_development
-
-  
-production:
-  adapter:  postgresql
-  encoding: unicode
-  timeout: 5000
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: <%= ENV['RDS_DATABASE'] %>
-  database: bug_track
-  username: <%= ENV['RDS_USERNAME'] %>
-  password: <%= ENV['RDS_PASSWORD'] %>
-  host: <%= ENV['RDS_HOST'] %>
   port: 5432
+
+
+#production:
+#  adapter:  postgresql
+# encoding: unicode
+#  timeout: 5000
+#  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+#  database: <%= ENV['RDS_DATABASE'] %>
+#  database: bug_track
+#  username: <%= ENV['RDS_USERNAME'] %>
+#  password: <%= ENV['RDS_PASSWORD'] %>
+#  host: <%= ENV['RDS_HOST'] %>
+#  port: 5432

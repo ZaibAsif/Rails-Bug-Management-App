@@ -8,3 +8,4 @@ echo "Deployment finished at: "$DEPLOYMENT_TIME" UTC" > /var/www/autobuffy-be/de
 chown -R ubuntu:ubuntu /var/www/autobuffy-be/deployment
 chmod -R 775 /var/www/autobuffy-be/deployment
 sudo service nginx restart
+bundle install
